@@ -1,0 +1,186 @@
+body {
+	background-color: #fff;
+	margin: 0;
+}
+
+header {
+	text-align: center ;
+	color: #FAF7E3;
+	background-image: url("banniere.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 35px 0px;
+	font-family: "Brush Script MT"; 
+	font-style: italic;
+	font-weight: bold;
+	font-size: 34px;
+}
+		
+/*Menu de navigation*/
+		
+.ulmenu {
+	margin-top: -20px;
+	padding: 0;
+}
+
+.limenu {
+	display: inline-block;
+	padding: 13px 19px;
+	margin-right: 6px;
+	background-color: #cba19a;
+	border-radius: 5px;
+}
+
+.amenu {
+	text-decoration: none;
+	color: #4e4644;
+	font-weight: bold;
+	border-bottom: 2px solid transparent;
+	padding: 10px 0px; 
+}
+
+.amenu:hover{
+	color: black;
+	border-bottom: 2px solid #FAF7E3;
+}
+
+
+/* Pied de page */
+
+footer {
+	background-color:#cba19a;
+	padding: 12px;	
+	margin-top: 30px;
+}	
+
+table.footer {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}	
+
+.footerleft {
+	border-right: 1px solid black; 
+	padding-right: 50px;
+}
+
+.contact {
+	height: 15px; 
+}
+.icon {
+	height: 20px; 
+}
+
+
+/*Page d'Acceuil*/
+
+.titlecontent {
+	font-family: "Century Gothic";
+	font-style: italic; 
+}	
+.contentleft {
+	margin-left: 4%;
+	margin-top: 20px;
+}	
+
+.imgright {
+	float: right;
+	max-width: 400px; 
+	max-height: 275px;
+	margin-left: 12%;
+	margin-right: 4%;
+	margin-bottom: 20px;
+}	
+.imgleft {
+	float: left;
+	max-width: 400px; 
+	margin-left: 4%;
+	margin-right: 9%;
+	margin-bottom: 20px;
+}	
+	
+.contentright {
+	margin-right: 4%;
+	margin-top: 20px;
+}
+.hr {
+	clear: both;
+	margin-top: 5px;
+	border-top: 1px solid #c08f81;
+}	
+.partners {
+	border: none;
+    width: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}	
+
+
+/*Pages coffrets et truffes*/
+
+.productscontent {
+	margin-top:20px;
+}
+.hrproducts {
+	width: 40%;
+	border-top: 1px solid black;
+}
+.reduc {
+	text-align: center;
+	color: red;
+}	
+
+.tableproducts {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	border-collapse: separate; 
+	border-spacing: 14px 8px;
+}	
+.coffrets {
+	height: 375px;
+}	
+.truffes {
+	height: 350px;
+	
+}
+
+.qty {
+	border: 0.6px solid black;
+	border-radius: 10%;
+	width: 2rem;
+    height: 2rem;
+	margin-bottom: 7px;
+}
+		
+.ajouter {
+	background-color: black;
+	padding: 2% 5%;
+	color: white;
+	border: 0;
+	border-radius: 5%;
+	border: 0.7px solid black;
+	font-size: 70%;
+}
+	 
+.ajouter:hover {
+	background-color: white;
+	color: black;
+	cursor:pointer;
+}		
+		
+.voirpanier {
+	height: 35px;
+}
+.voirpanier:hover {
+	height: 40px;
+	
+}
+
+/*remerciement*/
+
+.thankyou {
+	max-width: 300px;
+	max-height: 300px;
+}  
