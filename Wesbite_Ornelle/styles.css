@@ -57,7 +57,8 @@ h1{
 /* Pied de page */
 
 footer {
-	background-color:#cba19a;
+	background-color:hsl(0, 0%, 0%);
+	color: #4e8c38;
 	padding: 12px;	
 	margin-top: 30px;
 }	
