@@ -25,6 +25,7 @@
 
 <!-- <br />
 <hr class="hr" /><br /> -->
+<!-- 
 <section id="container-middle">
 <div>
 		<img class="imgleft" src="https://images.unsplash.com/photo-1618903085007-7d50b03b9990?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80" alt="disque dur" />
@@ -42,18 +43,35 @@
 		</span>
 </div>
 
-</section>
+</section>  -->
 
+
+
+<div class="container-middle">
+		<img class="imgleft" src="https://images.unsplash.com/photo-1618903085007-7d50b03b9990?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80" alt="Vitrine de chocolats" />
+		<span class = "titlecontent">
+			<h1 >Des disques durs pour vos ordinateurs</h1>
+			Pour Noël, Pâques ou pour un moment entre amoureux, rien de tel que des chocolats délicieux. Nous
+			sélectionnons pour vous
+			les meilleurs ingrédients possibles afin de réaliser des chocolats aux saveurs uniques et ce pour n'importe
+			quelle occasion.
+			Laissez-vous surprendre par nos savoureux chocolats confectionnées à l'aide d'un savoir-faire perfectionné
+			au fil des années.
+			Que vous les aimiez en tablettes, en boîtes ou sous d'autres formes toutes aussi originales les unes que les
+			autres, vous trouverez sans
+			aucun doute votre petit favori.
+		</span>
+	</div>
 
 
 
 
 <!-- <hr class="hr" /><br /> -->
 
-<div class="contentleft">
-	<img class="imgright" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7b6QBkeQuNygvQLFft0tUdFVAXM04N-p8dw&usqp=CAU" alt="Old hard disks" />
+<div class="container-bottom">
+	<img class="imgbottom" src="https://images.unsplash.com/photo-1652209473790-c737f4053b26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA4fHxoYXJkJTIwZGlza3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Old hard disks" />
 	<span>
-		<h1 class="titlecontent">Notre histoire</h1>
+		<h1 id="">Notre histoire</h1>
 		Sint consequat fugiat nisi fugiat id cillum fugiat exercitation qui. Amet irure velit magna commodo. Laboris
 		elit id sunt aute labore eu nulla do. Aute laboris dolore enim irure commodo ex consectetur elit pariatur ex.
 
@@ -65,17 +83,13 @@
 		Anim id irure ex anim esse sit. Id elit adipisicing laborum consectetur anim id laboris officia ea ut velit
 		laborum do. Et officia amet dolore ex fugiat amet anim id et sit dolor ullamco occaecat ullamco.
 
-		Deserunt Lorem id cupidatat ea. Aliquip est proident ex reprehenderit labore. Culpa nisi ex veniam eiusmod
-		commodo pariatur aute magna exercitation incididunt ipsum. Laboris irure ut magna excepteur elit velit ea. Quis
-		enim non consectetur dolor cupidatat magna exercitation cupidatat duis.
-
-		Magna aliquip consectetur enim anim ullamco. Est consectetur nostrud nulla consectetur sunt enim mollit fugiat
-		officia consequat ullamco. Qui dolor do cupidatat nulla Lorem dolore ut minim fugiat pariatur ullamco officia
-		veniam. Occaecat Lorem ex sit pariatur mollit ea labore Lorem elit fugiat. Deserunt ad sit aliqua amet aliqua
-		laborum ea laboris. Lorem aliqua ea minim sunt esse Lorem non ullamco proident.
+		
 
 	</span>
 </div>
+
+
+
 
 
 
