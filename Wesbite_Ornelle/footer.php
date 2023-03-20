@@ -6,19 +6,19 @@
 					<img src="images/icones/adresse.png" class="contact" /> 22 Rue des Interconnectes <br />
 					4000 Liège <br /><br />
 					<img src="images/icones/phone.png" class="contact" /> (+32)401 23 45 67 <br />
-					<img src="images/icones/email.png" class="contact" /> contact@digitalworld.com
+					<img src="images/icones/email.png" class="contact" />    contact@hexnode.com
 				</td>
 
 				<td style="padding-left: 50px;">
-					Rejoignez nous:
+					Rejoignez-nous:
 					<a href="https://www.facebook.com/" target="_blank" style="text-decoration: none;">
 						<img class="icon" src="images/icones/facebook.png" /></a>
 					<a href="https://twitter.com/" target="_blank" style="text-decoration: none;">
 						<img class="icon" src="images/icones/twitter.png" /></a>
 					<a href="https://www.instagram.com/" target="_blank" style="text-decoration: none;">
-						<img class="icon" src="images/icones/facebook.png" /></a>
+						<img class="icon" src="images/icones/instagram.png" /></a>
 					<br /><br />
-					&copy; Copyright 2023 | Digital World
+					&copy;2023 | HexNode
 				</td>
 			</tr>
 		</table>

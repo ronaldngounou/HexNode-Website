@@ -16,7 +16,7 @@
 		<center>
 			<ul id="ulmenu">
 				<li class="limenu">
-					<a class="amenu" href="index.php" target="_top">Home</a>
+					<a class="amenu" href="index.php" target="_top">Accueil</a>
 				</li>
 
 				<li class="limenu">
@@ -37,8 +37,7 @@
 				</li>
 			</ul>
 		</center>
-		<h1>Digital World</h1>
-		<h3>Exploitez la rapidite de vos ordinateurs</h3>
+		<h1>HexNode</h1>
 	</header>
 
 	
