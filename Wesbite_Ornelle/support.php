@@ -31,7 +31,7 @@
 		 }
 		 
 		 input[type=submit], input[type=reset] {
-			background-color: #af847d;
+			background-color: #40f759;
 			padding: 2% 10%;
 			color: white;
 			font-size: 102%;
@@ -39,7 +39,7 @@
 		 }
 		 
 		input[type=submit]:hover, input[type=reset]:hover {
-			background-color: #cba19a;
+			background-color: #58a762;
 		 }
 		 
 		 form.connection {
@@ -54,9 +54,11 @@
 
 	
 <center>
-					<h1 class='titlecontent' style='font-style: normal'>Inscription</h1>
-					<i>Devenez membre pour profiter de nombreux avantages client !</i> <br /></center>
-						<p class='reduc'><b>Promotion 'Nouveau Client'</b>: profitez de <b>15% de réduction pendant 15 jours</b> après la création de votre compte</p>
+					<h1 class='titlecontent' style='font-style: normal'>Support</h1>
+					<i>Nous pouvons aider votre business.</i> <br /></center>
+					Nos spécialistes du stockage sont là pour vous aider à trouver la bonne solution pour vos défis en matière de données
+
+Si vous avez besoin d'une assistance technique, visitez notre site d'assistance pour soumettre un cas ou accéder aux outils et à la documentation, aux communautés et à notre vaste base de connaissances techniques.
 
 				<div align='center'>
 					<form name='formulaire' action='form-action.php' method='GET'>

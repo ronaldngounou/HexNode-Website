@@ -177,6 +177,135 @@ table.footer {
 
 
 /*Pages products*/
+/*template from this website: https://matthewjamestaylor.com/3-column-layouts*/
+/* container */
+feature-compare {
+    display:flex;
+    /* margin-top:2.5em; */
+	margin-top: 10 pix;
+}
+
+/* columns */
+feature-compare > * {
+    position:relative;
+    padding:0;
+    text-align:center;
+    width:25%;
+}
+feature-compare > :nth-child(2) {
+    width:50%;
+    z-index:10;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 25%);
+}
+feature-compare > :nth-child(2):before {
+    content:"Le Plus Populaire";
+    display:block;
+    position:absolute;
+    top:-2em;
+    left:0;
+    right:0;
+    line-height:2em;
+    background:#000;
+    color:#fff; 
+    border-top-left-radius:.4em;
+    border-top-right-radius:.4em;
+}
+quotidien-level {
+    background:#f5d55f;
+}
+standard-level {
+    background:#cfbeae;
+}
+pro-level {
+    background:#74cc5e;
+}
+
+/* features */
+feature-compare ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    background:#fff;
+}
+feature-compare li {
+    white-space:nowrap;
+    line-height:2.2em;
+    border-top:1px solid #eee;
+}
+feature-compare li:first-child {
+    border-top:0;
+}
+feature-compare li.tick:before {
+    content: '✓ ';
+    color:#006e37;
+    font-weight:bold;
+    font-size:1.3em;
+}
+feature-compare li.cross:before {
+    content: '✗ ';
+    color:#ec1358;
+    font-weight:bold;
+    font-size:1.3em;
+}
+feature-compare h3 {
+    margin:0;
+    padding:.4em 0 0;
+}
+feature-compare .price {
+    margin:0 0 .2em;
+    font-size:2em;
+    font-weight:bold;
+}
+feature-compare span {
+    display:none;
+}
+
+/* buttons */
+feature-compare .button {
+    display:inline-block;
+    margin:.5em 0;
+    padding:.4em .5em;
+    background:#000000;
+    /* color:#000; */
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:.4em;
+}
+
+/* tablet breakpoint */
+@media (min-width:900px) {
+    feature-compare {
+        margin:2.5em calc(8px + 1.5625vw);
+    }
+    feature-compare > * {
+        width:calc(100% / 3);
+    }
+    feature-compare span {
+        display:inline;
+    }
+}
+
+.button {
+	padding: 10px 20px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #ffffff;
+	background-color: #04AA6D;
+	border: none;
+	border-radius: 15px;
+  
+  }
+  
+  /* .button:hover {background-color: #51e724} */
+  
+  .button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
+
 
 .productscontent {
 	margin-top:20px;
@@ -197,13 +326,6 @@ table.footer {
 	border-collapse: separate; 
 	border-spacing: 14px 8px;
 }	
-/* .coffrets {
-	height: 375px;
-}	
-.truffes {
-	height: 350px;
-	
-} */
 
 .qty {
 	border: 0.6px solid black;
@@ -211,6 +333,10 @@ table.footer {
 	width: 2rem;
     height: 2rem;
 	margin-bottom: 7px;
+	text-align: center;
+}
+form{
+	font-weight: bold;
 }
 		
 .ajouter {
