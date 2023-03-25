@@ -29,7 +29,7 @@
             <li class="tick"><span>Computations rapides</span></li>
         
         </ul>
-        <form class="disk-products" action="">
+        <form action="">
         Quantité : <input type=number name="hdd2" min="1" max ="99" class="qty" value="1" /> <br />
             <button class="button"> Acheter </button>
         </form>

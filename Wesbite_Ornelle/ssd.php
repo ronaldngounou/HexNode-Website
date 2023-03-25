@@ -14,7 +14,6 @@
             <li class="tick"><span>Linux</span></li>
             <li class="tick"><span>Windows 10, Windows 8.1</span></li>
             <li class="tick"><span>SATA 6Gb/s or SATA 3Gb/s port</span></li>
-            <!-- <li class="cross"><span>Lent au Demarrage</span></li> -->
         
         </ul>
         <form action="">
