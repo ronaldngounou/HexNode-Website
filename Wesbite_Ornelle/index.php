@@ -71,8 +71,8 @@
 		<img class="partners" src="images/content/toshiba.PNG" alt="Toshiba" /></a>
 	<a href="https://www.asus.com/fr/" target="_blank">
 		<img class="partners" src="images/content/asus.PNG" alt="Asus" /></a>
-	<a href="https://www.samsung.com/fr/" target="_blank">
-		<img class="partners" src="images/content/samsung.PNG" alt="Samsung" /></a>
+	<a href="https://www.microsoft.com/" target="_blank">
+		<img class="partners" src="images/content/microsoft.png" alt="Microsoft" /></a>
 
 </div>
 
