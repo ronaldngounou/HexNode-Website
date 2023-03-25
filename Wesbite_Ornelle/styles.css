@@ -363,11 +363,14 @@ feature-compare .button {
 }
 #title-form{
 	font-size: 40px;
-	color: #40f759;
+	color: #000000;
 }
 
 
-form {
+.formDeco{
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+
 	font-weight: bold;
 	padding:20px;
 	width:45%;
@@ -375,10 +378,6 @@ form {
 	margin-top: 20px;
 	border: 1px solid grey;
 	border-radius: 5px;
-	font-size: 15px;
-}
-.formDeco{
-	font-family: Helvetica, sans-serif;
 	font-size: 15px;
 }
 

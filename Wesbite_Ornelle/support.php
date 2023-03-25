@@ -2,7 +2,7 @@
 
 <div class="container-form">
 	<h1 id='title-form' >Contactez un expert</h1>
-					Nos spécialistes du stockage sont là pour vous aider à trouver la bonne solution pour vos défis en matière de données
+					Nos experts en disque dur sont là pour vous aider à trouver la bonne solution pour vos défis en matière de données
 					Si vous avez besoin d'une assistance technique, visitez notre site d'assistance pour soumettre un cas ou accéder aux outils et à la documentation, aux communautés et à notre vaste base de connaissances techniques. <br /></center>
 					
 				<div align='center'>
