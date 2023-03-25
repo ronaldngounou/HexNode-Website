@@ -9,7 +9,7 @@
         <h3>Quotidien</h3>
         <p class="price">€190.99</p>
         <ul>
-            <img src = "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/product-content/products/hard-drives/shared/images/barracuda-2-5-drives-card-layout-products-tile-2-image.png/_jcr_content/renditions/large"/>
+            <img src = "images/content/product1.PNG"/>
             <li class="tick"><span>256 GB </span></li>
             <li class="tick"><span>Linux</span></li>
             <li class="tick"><span>Windows 10, Windows 8.1</span></li>
@@ -27,7 +27,7 @@
         <h3>Standard</h3>
         <p class="price">€249.99</p>
         <ul>
-            <img width = 44%  src = "https://m.media-amazon.com/images/I/61hkUbJbZmL._AC_SX425_.jpg"/>
+            <img width = 44%  src = "images/content/product2.jpg"/>
             <li class="tick"><span>1.92 TB </span></li>
             <li class="tick"><span>Linux</span></li>
             <li class="tick"><span>Windows 10, Windows 8.1</span></li>
@@ -44,7 +44,7 @@
         <h3>Pro</h3>
         <p class="price">€459.99</p>
         <ul>
-            <img src = "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/product-content/products/hard-drives/shared/images/barracuda-3-5-drives-card-layout-products-tile-1-image.jpg/_jcr_content/renditions/large" />
+            <img src = "images/content/product3.PNG" />
             <li class="tick"><span>3.84 TB </span></li>
             <li class="tick"><span>Linux</span></li>
             <li class="tick"><span>Windows 10, Windows 8.1</span></li>

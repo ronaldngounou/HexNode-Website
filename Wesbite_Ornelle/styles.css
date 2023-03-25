@@ -305,23 +305,7 @@ feature-compare .button {
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
   }
-
-
-.productscontent {
-	margin-top:20px;
-}
-.hrproducts {
-	width: 40%;
-	border-top: 1px solid black;
-}
-
-.tableproducts {
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-	border-collapse: separate; 
-	border-spacing: 14px 8px;
-}	
+	
 
 .qty {
 	border: 0.6px solid black;
@@ -332,29 +316,6 @@ feature-compare .button {
 	text-align: center;
 }
 		
-.ajouter {
-	background-color: black;
-	padding: 2% 5%;
-	color: white;
-	border: 0;
-	border-radius: 5%;
-	border: 0.7px solid black;
-	font-size: 70%;
-}
-	 
-.ajouter:hover {
-	background-color: white;
-	color: black;
-	cursor:pointer;
-}		
-		
-.voirpanier {
-	height: 35px;
-}
-.voirpanier:hover {
-	height: 40px;
-	
-}
 
 /* Formulaire  */
 
