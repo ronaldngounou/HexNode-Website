@@ -32,8 +32,7 @@
 				</li>
 
 				<li class="limenu">
-					<a class="amenu" href="compte.php" target="_top">
-						S'inscrire </a>
+					<a class="amenu" href="support.php" target="_top"> Support </a>
 				</li>
 			</ul>
 		</center>
