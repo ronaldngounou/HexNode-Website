@@ -1,114 +1,75 @@
 <?php include 'header.php';?>
 
-<style>
-		form {
-		padding:20px;
-		width:45%;
-		text-align: left;
-		margin-top: 20px;
-		border: 1px solid grey;
-		border-radius: 5px;
-		}
-
-		input[type=text], input[type=password] {
-			padding: 5px 5px;
-			border: 1px solid #dddddd;
-			width: 60%;
-		}
-		 
-		.textarea {
-			resize: none;
-			padding: 5px 5px;
-			border: 1px solid #dddddd;
-		 }	
-		 
-		input[type=text]:hover, input[type=password]:hover {
-			border: 1px solid #393939;
-		 } 
-		 
-		input[type=submit], input[type=reset], input[type=checkbox], input[type=radio], select {
-			cursor:pointer;
-		 }
-		 
-		 input[type=submit], input[type=reset] {
-			background-color: #40f759;
-			padding: 2% 10%;
-			color: white;
-			font-size: 102%;
-			border: 0;
-		 }
-		 
-		input[type=submit]:hover, input[type=reset]:hover {
-			background-color: #58a762;
-		 }
-		 
-		 form.connection {
-			width:25%;
-		 }
-		 
-		 input.connection {
-			width:90%;
-		 }
-	</style>	
-
-
-	
-<center>
-					<h1 class='titlecontent' style='font-style: normal'>Support</h1>
-					<i>Nous pouvons aider votre business.</i> <br /></center>
+<div class="container-form">
+	<h1 id='title-form' >Contactez un expert</h1>
 					Nos spécialistes du stockage sont là pour vous aider à trouver la bonne solution pour vos défis en matière de données
-
-Si vous avez besoin d'une assistance technique, visitez notre site d'assistance pour soumettre un cas ou accéder aux outils et à la documentation, aux communautés et à notre vaste base de connaissances techniques.
-
+					Si vous avez besoin d'une assistance technique, visitez notre site d'assistance pour soumettre un cas ou accéder aux outils et à la documentation, aux communautés et à notre vaste base de connaissances techniques. <br /></center>
+					
 				<div align='center'>
-					<form name='formulaire' action='form-action.php' method='GET'>
-						<i>Nom*:</i> <br />
-							<input type='text' name='name' placeholder='Votre Nom' required />  
+					<form class = "formDeco" name='formulaireContact' action='form-action.php' method='GET'>
+
+					Objet de la demande: <br />
+					<select name="inquiryPurpose" id="inquiryPurpose" required>
+						<option value>Objet de la demande</option>
+						<option value="For Resale">Revente de produits et services</option>
+						<option value="For Client">Trouver une solution pour le client</option>
+						<option value="For Own Company"> Acheter pour usage par ma propre entreprise </option>
+						<option value="Support">Support</option>
+					</select>
+					<br /><br />
+
+						Nom*: <br />
+							<input type="text" placeholder="Nom*" name="Nom" data-required="true" data-error="Entrez votre nom svp." value required>
 							<br /><br />
 							
-						<i>Prénom*:</i> <br />
-							<input type='text' name='firstname' placeholder='Votre Prénom' required />  
+						Prénom*: <br />
+						<input type="text" placeholder="Prenom*" name="Prenom" data-required="true" data-error="Entrez votre prenom svp." value required>
 							<br /><br />
-							
-						<i>Nom d'utilisateur*:</i> <br />
-							<input type='text' name='username' placeholder='Votre username' required />  
-							<br /><br />
-							
-						<i>Je suis:</i> <br />
-							<input type='radio' name='sexe' value='Homme' required/> 
-							Un homme 
-							<input type='radio' name='sexe' value='Femme' required/> 
-							Une femme 
-							<input type='radio' name='sexe' value='Autre' required/> 
-							Autre 
-						<br /><br />
 						
-						<i>Pays</i>: 
-							<select name='pays' size='1'>
-								<option value='Belgique'>Belgique</option>
-								<option value='France'>France</option>
-								<option value='Pays-Bas'>Pays-Bas</option>
-							</select>
+						Email*: <br />
+						<input type="text" placeholder="Adresse Email Entreprise*" name="email" required>
 						<br /><br />
 
-						<i>Adresse*:</i> <br />
-							<input type='text' name='adresse' placeholder='Rue, N°, Code postal, Ville' required />  
-							<br /><br />
-						
-						<i>E-mail*:</i> <br />
-							<input type='text' name='mail' placeholder='exemple@email.com' required />  
+						Pays: 
+						<select name='pays' size='1'>
+							<option value='Belgique'>Belgique</option>
+							<option value='France'>France</option>
+							<option value='Pays-Bas'>Pays-Bas</option>
+						</select>
+						<br /><br />
+
+						Position: <br />
+						<select name="busRole" id="busRole" required>
+							<option value>Quelle est votre position?</option>
+							<option value="Business Owner">Proprietaire d'entreprise</option>
+							<option value="System Administrator">Admninistrateur de systeme</option>
+							<option value="System Integrator">Integrateur de systeme</option>
+							<option value="Chef Projet">Chef de projet</option>
+							<option value="Acheteur">Acheter</option>
+							<option value="Sales and Marketing">Vente et Marketing</option>
+						</select>
 						<br /><br />
 						
-						<i>Mot de passe*:</i> <br />
-							<input type='password' name='password' placeholder='Votre mot de passe' required />  
+						Telephone: <br />
+						<input type="text" placeholder="Telephone*" name="phone" required="">
 						<br /><br />
-						
-						<i>Informations additionnelles/Commentaires:</i>
-						<textarea name='infosup' rows='4' cols='60' class='textarea' placeholder='Ajouter quelque chose'></textarea>
+
+						Estimation Période d'Achat* <br />
+						<select name="tempsAchat" id="tempsAchat">
+							<option value>Estimation Période d'Achat*</option>
+							<option value="Ce mois">Ce mois</option>
+							<option value="Dans les 3 prochains mois">Dans les 3 prochains mois</option>
+							<option value="3 Mois et plus">3 Mois et plus</option>
+							<option value="Pas d'intention d'achat">Pas d'intention d'achat</option>
+						</select>
+						<br /><br />
+
+						Informations additionnelles/Commentaires:
+						<textarea name='infosup' rows='4' cols='40' class='textarea' placeholder='Elaborez plus concernant votre requete.'></textarea>
 						<br /><br />
 							
-							<input type='checkbox' name='conditions' value='checked' required /> 
-						J'ai lu et j'accepte les <i>Conditions d'utilisation</i>*
+						<input type='checkbox' name='conditions' value='checked' required /> 
+						J'ai lu et j'accepte les Conditions d'utilisation*
 						<br /><br />
 						
 						<input type='submit' value='Envoyer' />  &nbsp;
@@ -116,23 +77,8 @@ Si vous avez besoin d'une assistance technique, visitez notre site d'assistance 
 					</form>
 				</div>	
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
+	
 
 
 

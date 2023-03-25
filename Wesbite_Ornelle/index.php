@@ -7,17 +7,17 @@
 			src="https://images.unsplash.com/photo-1633075401933-bf9afc3edef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 			alt="Product image" />
 	
-			<h1 class="titlecontent">A propos de nous</h1>
+			<h1 class="titlecontent">A propos de HexNode</h1>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-			dolore magna aliqua. Et netus et malesuada fames ac. Quis lectus nulla at volutpat diam ut venenatis tellus.
-			Curabitur vitae nunc sed velit dignissim sodales ut.
-			Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. Ultrices gravida dictum
-			fusce ut. Fames ac turpis egestas integer eget. Tellus molestie nunc non blandit massa enim. Duis ut diam
-			quam nulla porttitor massa. Sed augue lacus viverra vitae congue eu consequat.
-			Feugiat vivamus at augue eget. Id velit ut tortor pretium viverra. Mi in nulla posuere sollicitudin aliquam
-			ultrices. Sed vulputate odio ut enim blandit volutpat. Convallis posuere morbi leo urna molestie at. Massa
-			id neque aliquam vestibulum morbi blandit cursus risus at. Viverra suspendisse potenti nullam ac.
+			Bienvenue sur le site de notre entreprise spécialisée dans la vente de disques durs performants, rapides et de hautes gammes utilisant les dernières avancées technologiques.
+
+			Nous proposons une large sélection de disques durs de haute qualité, conçus pour répondre aux besoins des utilisateurs les plus exigeants. Nous nous engageons à offrir des produits fiables et performants, qui vous permettront de stocker vos données en toute sécurité.
+
+			Nos disques durs sont équipés des dernières technologies, tels que la technologie SSD (Solid State Drive), qui garantit une vitesse de transfert ultra-rapide et une réactivité optimale. De plus, nos produits sont dotés de fonctionnalités avancées telles que la gestion de l'énergie, la protection des données et la gestion de la mémoire cache.
+
+			Nous sommes convaincus que la qualité de nos produits se reflète dans notre service clientèle, qui est toujours disponible pour répondre à vos questions et vous aider à trouver le disque dur qui correspond le mieux à vos besoins. Nous offrons également une garantie de qualité et de performance sur tous nos produits.
+
+		
 			</p>
 	
 	</div>
@@ -29,15 +29,13 @@
 		<img class="imgleft" src="https://images.unsplash.com/photo-1618903085007-7d50b03b9990?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80" alt="Vitrine de chocolats" />
 		<span class = "titlecontent">
 			<h1 >Des disques durs adaptés</h1>
-			Pour Noël, Pâques ou pour un moment entre amoureux, rien de tel que des chocolats délicieux. Nous
-			sélectionnons pour vous
-			les meilleurs ingrédients possibles afin de réaliser des chocolats aux saveurs uniques et ce pour n'importe
-			quelle occasion.
-			Laissez-vous surprendre par nos savoureux chocolats confectionnées à l'aide d'un savoir-faire perfectionné
-			au fil des années.
-			Que vous les aimiez en tablettes, en boîtes ou sous d'autres formes toutes aussi originales les unes que les
-			autres, vous trouverez sans
-			aucun doute votre petit favori.
+			Chez nous, la qualité est une priorité absolue. Nous avons sélectionné les meilleurs fabricants pour fournir à nos clients des disques durs de haute qualité, fiables et performants. Tous nos produits sont soumis à des tests rigoureux avant d'être proposés à la vente, afin de garantir une qualité irréprochable.
+
+			Nous sommes convaincus que la satisfaction de nos clients est le reflet de la qualité de nos produits. C'est pourquoi nous offrons une garantie de satisfaction sur tous nos disques durs. Si pour une raison quelconque, vous n'êtes pas satisfait de votre achat, nous nous engageons à trouver une solution qui répondra à vos attentes.
+
+			Nous sommes également à l'écoute de nos clients et sommes toujours prêts à répondre à leurs questions et à leur offrir des conseils personnalisés. Notre service clientèle est disponible pour répondre à toutes vos demandes et vous aider à choisir le disque dur adapté à vos besoins.
+
+	
 
 			
 		</span>
@@ -48,17 +46,13 @@
 	<img class="imgbottom" src="https://images.unsplash.com/photo-1550221927-f7e52256370b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEwfHxoYXJkJTIwZGlza3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Old hard disks" />
 	<span>
 		<h1 id="">Notre histoire</h1>
-		Sint consequat fugiat nisi fugiat id cillum fugiat exercitation qui. Amet irure velit magna commodo. Laboris
-		elit id sunt aute labore eu nulla do. Aute laboris dolore enim irure commodo ex consectetur elit pariatur ex.
+		Tout a commencé avec notre fondatrice, qui avait une passion pour la technologie et la sauvegarde des données. Après avoir travaillé pendant des années dans le secteur de la technologie de l'information, il a réalisé que de nombreuses personnes perdaient leurs données importantes en raison de pannes de disques durs ou d'autres problèmes techniques.
 
-		Mollit nisi ex ullamco laboris irure nisi eiusmod officia aliquip culpa mollit. Ipsum cillum non ullamco sunt
-		cupidatat nisi ullamco. Eiusmod esse occaecat cillum est ullamco ut dolor non officia. Voluptate cupidatat
-		aliqua fugiat ipsum veniam ullamco est labore id eu duis nisi aute dolore. Anim duis officia consequat aute
-		eiusmod elit minim Lorem. Aliqua eiusmod id id sint. Velit cillum nulla do fugiat occaecat occaecat eiusmod.
+		C'est alors qu'il a eu l'idée de créer une entreprise spécialisée dans les disques durs externes, qui offriraient une solution de stockage fiable, performante et facile à utiliser. Il a travaillé dur pour trouver les meilleurs fournisseurs et pour développer des produits de haute qualité qui répondraient aux besoins des clients les plus exigeants.
 
-		Anim id irure ex anim esse sit. Id elit adipisicing laborum consectetur anim id laboris officia ea ut velit
-		laborum do. Et officia amet dolore ex fugiat amet anim id et sit dolor ullamco occaecat ullamco.
-	
+		Au fil des années, notre entreprise a connu une croissance constante et a gagné la confiance de milliers de clients à travers le monde. Nous sommes fiers de dire que nous avons contribué à protéger les données de nos clients, leur permettant ainsi de conserver des souvenirs précieux, de protéger leur entreprise et de sauvegarder leur travail.
+
+		Notre entreprise continue de se développer, en s'appuyant sur notre engagement envers la qualité, l'innovation et le service clientèle. Nous sommes heureux de partager notre histoire avec vous, et nous espérons que vous choisirez notre entreprise pour répondre à vos besoins de stockage de données externes.
 
 	</span>
 </div>

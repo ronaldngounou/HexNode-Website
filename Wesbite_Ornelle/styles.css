@@ -141,6 +141,7 @@ table.footer {
 .imgright {
 	float: right;
 	max-width: 500px; 
+	margin-top: 90px;
 	margin-left: 12%;
 	margin-right: 4%;
 	margin-bottom: 80px; 
@@ -160,6 +161,7 @@ table.footer {
 	margin-left: 12%;
 	margin-right: 4%;
 	margin-bottom: 80px; 
+	margin-top: 150px;
 }	
 
 
@@ -272,7 +274,7 @@ feature-compare .button {
     border-radius:.4em;
 }
 
-/* tablet breakpoint */
+/* tablet breakpoint - Rescale automatiquement sur differents appareils */ 
 @media (min-width:900px) {
     feature-compare {
         margin:2.5em calc(8px + 1.5625vw);
@@ -298,8 +300,6 @@ feature-compare .button {
   
   }
   
-  /* .button:hover {background-color: #51e724} */
-  
   .button:active {
 	background-color: #3e8e41;
 	box-shadow: 0 5px #666;
@@ -314,10 +314,6 @@ feature-compare .button {
 	width: 40%;
 	border-top: 1px solid black;
 }
-.reduc {
-	text-align: center;
-	color: red;
-}	
 
 .tableproducts {
 	margin-right: auto;
@@ -334,9 +330,6 @@ feature-compare .button {
     height: 2rem;
 	margin-bottom: 7px;
 	text-align: center;
-}
-form{
-	font-weight: bold;
 }
 		
 .ajouter {
@@ -363,9 +356,73 @@ form{
 	
 }
 
+/* Formulaire  */
+
+.container-form{
+	margin-bottom: 50px;
+}
+#title-form{
+	font-size: 40px;
+	color: #40f759;
+}
+
+
+form {
+	font-weight: bold;
+	padding:20px;
+	width:45%;
+	text-align: left;
+	margin-top: 20px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.formDeco{
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+	 
+.textarea {
+	resize: none;
+	padding: 5px 5px;
+	border: 1px solid #dddddd;
+}	
+	 
+input[type=text]:hover {
+	border: 1px solid #393939;
+} 
+	 
+input[type=submit], input[type=reset], input[type=checkbox], input[type=radio], select {
+	cursor:pointer;
+}
+	 
+input[type=submit], input[type=reset] {
+	background-color: #40f759;
+	padding: 2% 10%;
+	color: white;
+	font-size: 102%;
+	border: 0;
+}
+	 
+input[type=submit]:hover, input[type=reset]:hover {
+	background-color: #58a762;
+}
+	 
+form.connection {
+	width:25%;
+}
+	 
+input.connection {
+	width:90%;
+}
+
+
+
 /*remerciement*/
 
 .thankyou {
 	max-width: 300px;
 	max-height: 300px;
 }  
+
