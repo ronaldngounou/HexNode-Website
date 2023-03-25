@@ -7,6 +7,7 @@
 	<title>Accueil - Digital World </title>
 	
 	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/png" href="images/icones/icon.png" />
 
 </head>
 
