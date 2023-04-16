@@ -17,8 +17,8 @@
         
         </ul>
         <form action="">
-        Quantité : <input type=number name="ssd1" min="1" max ="99" class="qty" value="1" /> <br />
-            <button class="button"> Acheter </button>
+        Quantité : <input type=number name="ssd1" min="0" max ="99" class="qty" value="1" /> <br />
+            <button class="button"> Ajouter au panier </button>
         </form>
         
     </quotidien-level>
@@ -34,8 +34,8 @@
         
         </ul>
         <form action="">
-        Quantité : <input type=number name="ssd2" min="1" max ="99" class="qty" value="1" /> <br />
-            <button class="button"> Acheter </button>
+        Quantité : <input type=number name="ssd2" min="0" max ="99" class="qty" value="1" /> <br />
+            <button class="button"> Ajouter au panier </button>
         </form>
 
     </standard-level>
@@ -51,8 +51,8 @@
         
         </ul>
         <form action="">
-        Quantité : <input type=number name="ssd3" min="1" max ="99" class="qty" value="1" /> <br />
-            <button class="button"> Acheter </button>
+        Quantité : <input type=number name="ssd3" min="0" max ="99" class="qty" value="1" /> <br />
+            <button class="button"> Ajouter au panier </button>
         </form>
         
     </pro-level>

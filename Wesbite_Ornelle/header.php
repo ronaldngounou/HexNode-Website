@@ -29,7 +29,7 @@
 				</li>
 
 				<li class="limenu">
-					<a class="amenu" href="panier.php" target="_top">Panier</a>
+					<a class="amenu" href="panier.php" target="_top">Panier d'achat</a>
 				</li>
 
 				<li class="limenu">
