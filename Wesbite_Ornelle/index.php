@@ -1,10 +1,9 @@
 <?php include 'header.php';?>
 
 <section id="title">
-	<div class="container-top">
+	<div id="container-top">
 
-		<img class="imgright"
-			src="images/content/imgright.PNG" alt="Product image" />
+		<img id="imgright" src="images/content/imgright.PNG" alt="Product image" />
 	
 			<h1 class="titlecontent">A propos de HexNode</h1>
 			<p>
@@ -24,8 +23,8 @@
 
 
 
-<div class="container-middle">
-		<img class="imgleft" src="images/content/imgleft.PNG" alt="image product" />
+<div id="container-middle">
+		<img id="imgleft" src="images/content/imgleft.PNG" alt="image product" />
 		<span class = "titlecontent">
 			<h1 >Des disques durs adaptés</h1>
 			Chez nous, la qualité est une priorité absolue. Nous avons sélectionné les meilleurs fabricants pour fournir à nos clients des disques durs de haute qualité, fiables et performants. Tous nos produits sont soumis à des tests rigoureux avant d'être proposés à la vente, afin de garantir une qualité irréprochable.
@@ -41,8 +40,8 @@
 	</div>
 
 
-<div class="container-bottom">
-	<img class="imgbottom" src="images/content/imgbottom.PNG" alt="Old hard disks" />
+<div id="container-bottom">
+	<img id="imgbottom" src="images/content/imgbottom.PNG" alt="Old hard disks" />
 	<span>
 		<h1 id="">Notre histoire</h1>
 		Tout a commencé avec notre fondatrice, qui avait une passion pour la technologie et la sauvegarde des données. Après avoir travaillé pendant des années dans le secteur de la technologie de l'information, il a réalisé que de nombreuses personnes perdaient leurs données importantes en raison de pannes de disques durs ou d'autres problèmes techniques.
@@ -58,7 +57,7 @@
 
 
 
-<section class="container-partenaires">
+<section id="container-partenaires">
 <h1 >
 	<center>Nos partenaires</center>
 </h1>
