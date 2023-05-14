@@ -20,7 +20,7 @@
  
 	<center> 
 	
-		<form action="" method="POST">
+		<form action="moncompte.php" method="POST">
 			<table>
 					
 				<tr> 
@@ -38,7 +38,8 @@
 						<input type="password" placeholder="Mot de passe" name="mp1" /> 
 					</td>
 				</tr>
-				 
+				
+				
 				<tr> 
                     <td colspan="3">
                          <input type="submit"  value="Se connecter"/> 
@@ -57,19 +58,18 @@
 	
 	
 <?php
-		if (isset($_POST["email2"])) {
-		if (isset($_COOKIE["email"])) {
+		if (isset($_POST["email2"]) and isset($_COOKIE["email"])) {
+
 			if ($_COOKIE["email"]==$_POST["email2"] and $_COOKIE["passe"]== $_POST["mp1"]){
 				//  $_SESSION{"email"}=$_COOKIE["email"];
 				$_SESSION["email"]=$_COOKIE["email"];
-			header("location: moncompte.php");
+				alert("information received");
+				header("location: moncompte.php");
 			}
-		else 
-			echo " La combinaison 'e-mail' et 'mot de passe' ne correspond à aucun compte de HexNode <br />";
-		 
-		}
-		else 
-			echo"Vous ne possédez pas de compte?  Ne tardez plus !!! <br /> " ;
+			else {
+				alert(" La combinaison 'e-mail' et 'mot de passe' ne correspond à aucun compte de HexNode <br />");
+			}
+		
 		}
 ?>
 	

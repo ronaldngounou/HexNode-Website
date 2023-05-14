@@ -35,7 +35,7 @@
   
         </h3> 
 <div align='center'>	
-	<form action="" method="POST" name="forminscription">
+	<form action="connecter.php" method="POST" name="forminscription">
 		<table class="formdeco"> 
 		
 			<tr> 

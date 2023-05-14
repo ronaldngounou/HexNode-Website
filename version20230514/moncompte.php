@@ -37,10 +37,10 @@ session_start();
 		
 		
 
-<form action="" method="POST" > 
+<form action="index.php" method="POST" > 
 	<input type="submit" name="deconnecter" value="Se déconnecter"/>
 </form>
-		<?php if(isset($_POST['deconnecter'])) {unset($_SESSION['email']);header('location: index.php');} ?>
+		<?php if(isset($_POST['deconnecter'])) {unset($_SESSION['email']);header('location: index.php');} ?> 
 		
 		
 <?php include("footer.html"); 
