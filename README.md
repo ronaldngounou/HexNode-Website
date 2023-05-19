@@ -1,2 +1,2 @@
 # WebsiteCreation_Hardware_Company
-Website creation project for a hardware company using PHP
+Creation of a website an a company selling HDD and SDD disks. 
